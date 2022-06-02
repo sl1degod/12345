@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interesting</title>
+  <link rel="stylesheet" href="style-hystory.css">
+</head>
+<body>
+  <header >
+    <nav>
+      <a href="index.html">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="gallery.html">Видеоуроки</a></li>
+          <li><a href="history.html">Интересное</a></li>
+          <li><a href="history2.html">Упражнения</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+  </header>
+
+  <!-- end header -->
+
+  <!-- course -->
+  
+  <section class="campus">
+    <h1>Популярные фразы</h1>
+    
+    <div class="row">
+      
+      <div class="campus-col">
+        
+        <img src="./images/5fd4c5e7c8ff1.jpg" alt="london">
+        
+      </div>
+      <div class="campus-col">
+        <img src="./images/Meteora.jpg" alt="New York">
+        
+      </div>
+      <div class="campus-col">
+        <img src="./images/minutes-to-midnight-poster1.jpg" alt="Washington">
+        
+      </div>
+    </div>
+    
+    </div>
+   <br>
+    <h2>Топ книг для изучения языка</h2>
+    <div class="row">
+      <div class="campus-col">
+        <img src="./images/reanimation.jpg" alt="london">
+        <div class="layer">
+          <h3>Снежная королева», Г. Х. Андерсен</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="./images/col.jpg" alt="New York">
+        <div class="layer">
+          <h3>«Ешь, молись, люби», Элизабет Гилберт</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="./images/52.jpg" alt="Washington">
+        <div class="layer">
+          <h3>«Поллианна», Э. Х. Портер</h3>
+        </div>
+      </div>
+      </div>
+     <br>
+        <h2>Книги для грамматики</h2>
+        <div class="row">
+          <div class="campus-col">
+            <img src="./images/Liveintexas.jpg" alt="london">
+            <div class="layer">
+              <h3>«Английский шаг за шагом», Н. А. Бонк, И. И. Левина, И. А. Бонк</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="./images/60d78cbfb9c08193563d9f76568d26b3.jpg" alt="New York">
+            <div class="layer">
+              <h3>«Полиглот, 16 уроков английского языка», Дмитрий Петров
+               </h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="./images/f232abf08ccae5e95edb182330f8da72.jpg" alt="Washington">
+            <div class="layer">
+              <h3>«Самоучитель английского языка», К. Э. Эккерсли
+               </h3>
+            </div>
+    </div>
+  </section>
+  <!-- end course -->
+  
+  <footer>
+    <h4>English</h4>
+   
+    <div class="icons">
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-telegram-plane"></i>
+      <i class="fab fa-instagram "></i>
+      <i class="fab fa-vk"></i>
+    </div>
+  
+  </footer>
+  <script>
+
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+
+  </script>
+
+  <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>

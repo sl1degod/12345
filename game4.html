@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>game4</title>
+  <link rel="stylesheet" href="style-gallery.css">
+</head>
+<body>
+  <header >
+    <nav>
+      <a href="index.html">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="gallery.html">Видеоуроки</a></li>
+          <li><a href="history.html">Интересное</a></li>
+          <li><a href="history2.html">Упражнения</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+  </header>
+
+  </div>
+
+  <div class="video" style="text-align: center;" >
+    <iframe src="https://learningapps.org/watch?v=pa3ua64wc22" style="border:0px;width: 1280px;;height:720px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+  </div>
+    
+
+  <footer>
+    <h4>English</h4>
+   
+    <div class="icons">
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-telegram-plane"></i>
+      <i class="fab fa-instagram "></i>
+      <i class="fab fa-vk"></i>
+    </div>
+  
+  </footer>
+  <script>
+
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+
+  </script>
+
+  <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+</body>
+</html>
